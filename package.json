@@ -1,0 +1,38 @@
+{
+  "name": "kv_store",
+  "version": "1.0.0",
+  "description": "A version controlled key-value store with a HTTP API we can query that from",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/govindrao54/kv_store.git"
+  },
+  "keywords": [
+    "key",
+    "value",
+    "store"
+  ],
+  "author": "govind",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/govindrao54/kv_store/issues"
+  },
+  "homepage": "https://github.com/govindrao54/kv_store#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "joi": "^13.4.0",
+    "joi-add": "^0.7.0",
+    "knex": "^0.14.6",
+    "moment": "^2.22.2",
+    "mysql": "^2.15.0",
+    "object-sizeof": "^1.2.0",
+    "request-validation": "^0.1.2-0",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
